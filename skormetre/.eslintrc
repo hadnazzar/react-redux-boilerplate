@@ -1,0 +1,26 @@
+  {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "react-app",
+      "standard"
+    ],
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "always",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "indent": ["error", 2],
+      "object-property-newline": 0,
+      "quotes":0,
+      "max-len": [2, 180, 4, {"ignoreUrls": true}],
+      "jsx-a11y/href-no-hash": [0],
+      "operator-linebreak": 0
+    }
+  }
