@@ -1,0 +1,14 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+include_warnings=true
+module.file_ext=.js
+module.file_ext=.json
+
+[strict]

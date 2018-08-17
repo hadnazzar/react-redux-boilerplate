@@ -1,7 +1,10 @@
+// @flow
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 
-class Login extends Component {
+type HomePropsType = { /* ... */ };
+
+class Login extends Component <HomePropsType> {
   render() {
     return (
       <div className="App">

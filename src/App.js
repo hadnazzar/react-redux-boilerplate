@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 import './App.css';
 import { Provider } from 'react-redux'
@@ -11,7 +13,8 @@ const onBeforeLift = () => {
   // take some action before the gate lifts
 }
 
-class App extends Component {
+type AppPropsType = { /* ... */ };
+class App extends Component <AppPropsType> {
   // eslint-disable-next-line camelcase
   render() {
     return (
